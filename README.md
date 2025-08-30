@@ -75,7 +75,7 @@ To get a local copy up and running, follow these steps.
 ### Installation
 1.  Clone the repository:
     ```sh
-    git clone [https://github.com/abhishek0112cs221008/project_track_your_finance.git](https://github.com/abhishek0112cs221008/project_track_your_finance.git)
+    git clone https://github.com/abhishek0112cs221008/project_track_your_finance.git
     ```
 2.  Navigate to the project directory:
     ```sh
