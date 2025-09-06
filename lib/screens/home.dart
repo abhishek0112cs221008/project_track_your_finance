@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:project_track_your_finance/screens/about_screen.dart';
 import 'package:project_track_your_finance/screens/analytics_card.dart';
+import 'package:project_track_your_finance/screens/groups_screen.dart';
 import 'package:provider/provider.dart';
 import '../providers/transaction_provider.dart';
 import '../models/transaction.dart';
@@ -36,9 +37,10 @@ class _TransactionsScreenState extends State<TransactionsScreen> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  CupertinoPageRoute(builder: (context) => AboutScreen()),
+                  CupertinoPageRoute(builder: (context) => GroupsScreen()),
                 );
               },
+              // child: const Icon(CupertinoIcons.info_circle, color: CupertinoColors.activeBlue, size: 20),
               child: const Icon(CupertinoIcons.info_circle, color: CupertinoColors.activeBlue, size: 20),
             ),
           ],
